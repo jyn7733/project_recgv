@@ -1,0 +1,346 @@
+@charset "utf-8";
+/* cgv_mycgv.css */
+
+#wrap{
+  width: 1600px; height: auto; 
+  margin: auto;
+}
+
+#headBox{ position: relative;
+  width: 100%; height: 1380px;
+  background-color: #fdfcf0;
+}
+
+.log_area{
+  margin-left: 1107px; margin-top: 20px;
+  width: 380px; height: 70px;
+  background-color: transparent;
+}
+.user_icon{ float: left;
+  width: 34px; height: 30px;
+  background-image: url("../../img/user_icon.png");
+  background-repeat: no-repeat;
+}
+.log_area > li{ float: left;
+  margin: auto;
+  font-size: 20px;
+
+}
+.log_area > li:nth-of-type(3){
+  color:#da281c;
+}
+
+
+#globalNav{
+  width: 82px; height: 68px;
+  margin-left: 114px;
+  background-image: url("../../img/meun_bar_basic.png");
+  background-repeat:no-repeat;
+}
+#globalNav:hover,
+#globalNav:focus{
+  width: 82px; height: 68px;
+  margin-left: 114px;
+  background-image: url("../../img/meun_bar_hover.png");
+  background-repeat:no-repeat; cursor: pointer;
+}
+
+#globalNavBox{
+  position: absolute; top: 70px;
+  z-index: 500;
+  width: 82px; height: 68px; overflow: hidden;
+  margin-left: 82px; color:#231d1d;
+  opacity: 0.9;
+  background-color: #f7f6ea;
+}
+#globalNavBox:hover,
+#globalNavBox:focus{
+  width: 1290px; height: 150px;
+}
+
+#globalNavBox a:hover,
+#globalNavBox a:focus{
+  color: #D03432;
+}
+
+#globalNavBox > li{
+  float: left;
+  width: 180px; height: 35px;
+  margin-left: 50px; font-size: 30px;
+  text-align: center; text-transform: uppercase;
+  border-bottom: 2px solid #231d1d;
+}
+
+.global_nav_text li{
+  width: 180px; height: 24px;
+  font-size: 20px;
+}
+
+h1{
+   position: absolute; left: 50%; top: 70px;
+   font-size: 60px; color: #da281c;
+}
+
+#headBox > h2{
+  margin-left: 780px; margin-top: 50px;
+  color:#444; font-size: 50px;
+}
+
+/* myinfoBox */
+#myinfoBox{
+  width: 1194px; height: 876px;
+  margin: auto; margin-top: 100px;
+}
+
+#myinfoBox > li:nth-of-type(1){
+  width: 1190px; height: 300px;
+  margin-bottom: 85px;
+  background-color: #fef8dc;
+}
+
+#myinfoBox > li{ float: left;
+  width: 560px; height: 490px;
+  border: 2px solid #231D1D;
+  background-color: #fef8dc;
+}
+
+#myinfoBox > li:nth-of-type(2){
+  margin-right: 50px;
+}
+
+.myprofile_img a{ float: left;
+  width: 300px; height: 298px;
+  background-image: url("../../img/profile_img.png");
+  background-repeat: no-repeat;
+}
+
+
+
+#theaterList{
+  width: 100%; height: 100%;
+}
+
+#theaterList li{ float: left;
+  width: 224px; height: 80px;
+  margin-top: 40px;
+  border: 2px dotted #231d1d;
+  border-radius: 10px;
+}
+ 
+#theaterList li:nth-of-type(n + 1){
+ margin-left: 40px; margin-right: 20px
+}
+#theaterList li:nth-of-type( 2n ){
+  margin-left: 0;
+ }
+
+ /* mypackageBox */
+ #mypackageBox{
+   width: 100%; height: auto; min-height: 1000px;
+   margin: auto;
+   background-color: #fdfcf0;
+ }
+ .mypackage_area{
+   width: 1200px; height: auto; min-height: 600px;
+   margin: auto;
+   border: 2px solid #231d1d; 
+   background-color: #f1f0e5;
+ }
+ .my_ticketing{ float: left;
+   width: 388px; height: auto; min-height: 200px;
+ }
+
+ .my_ticketing_title{
+   width: 100%; height: 60px;
+   border-bottom: 2px dotted #231d1d;
+ }
+
+ .my_ticketing h3{ float: left;
+  width: 162px; height: 60px;
+  font-size: 40px; text-transform: uppercase;
+  margin-left: 90px;
+ }
+
+ .ticket_icon{float: left;
+   width: 95px; height: 60px;
+   background-image: url("../../img/ticket_icon.png");
+   background-repeat: no-repeat;
+ }
+
+ .my_ticketing ul{ float: left;
+   width: 100%; height: 100%;
+ }
+
+ .my_ticketing li{
+   width: 268px; height: 150px;
+   margin: auto; 
+   margin-top: 20px;
+ }
+ .my_ticketing li:nth-of-type(1){
+   background-image: url("../../img/ticket_img_01.jpg");
+   background-repeat: no-repeat;
+ }
+ .my_ticketing li:nth-of-type(3){
+  background-image: url("../../img/ticket_img_02.png");
+  background-repeat: no-repeat;
+}
+ .my_ticketing li p{
+  display: block; 
+  width: 268px; height: 60px;
+  margin: auto;
+  background-color: #777;
+}
+.my_ticketing li:nth-of-type(2n){ 
+  margin-top: 0; height: 60px;
+}
+
+ .my_coupon{float: left;
+  width: 388px; height:auto; min-height: 200px;
+}
+
+.my_coupon_title{
+  width: 100%; height: 60px;
+  border-bottom: 2px dotted #231d1d;
+}
+
+.my_coupon_title h3{ float: left;
+ width: 162px; height: 60px;
+ font-size: 40px; text-transform: uppercase;
+ margin-left: 90px;
+}
+
+.coupon_icon{float: left;
+  width: 95px; height: 60px;
+  background-image: url("../../img/coupon_icon.png");
+  background-repeat: no-repeat;
+}
+.my_coupon ul{ float: left;
+  width: 100%; height: 100%;
+}
+
+.my_coupon li{
+  width: 268px; height: 150px;
+  margin: auto; 
+  margin-top: 20px;
+}
+.my_coupon li:nth-of-type(1){
+  background-image: url("../../img/coupon_img_box.png");
+  background-repeat: no-repeat;
+}
+.my_coupon li p{
+  display: block; 
+  width: 268px; height: 60px;
+  margin: auto;
+  background-color: #777;
+}
+.my_coupon li:nth-of-type(2n){ 
+  margin-top: 0; height: 60px;
+}
+
+
+.my_purchase{float: left;
+  width: 388px; height:auto; min-height: 200px;
+}
+.my_purchase_title{
+  width: 100%; height: 60px;
+  border-bottom: 2px dotted #231d1d;
+}
+
+.my_purchase_title h3{ float: left;
+ width: 162px; height: 60px;
+ font-size: 40px; text-transform: uppercase;
+ margin-left: 90px;
+}
+.my_purchase ul{ float: left;
+  width: 100%; height: 100%;
+}
+
+.my_purchase li{
+  width: 268px; height: 150px;
+  margin: auto; 
+  margin-top: 20px;
+}
+.my_purchase li:nth-of-type(1){
+  background-image: url("../../img/purchaes_img_box.png");
+  background-repeat: no-repeat;
+}
+.my_purchase li p{
+  display: block; 
+  width: 268px; height: 60px;
+  margin: auto;
+  background-color: #777;
+}
+.my_purchase li:nth-of-type(2n){ 
+  margin-top: 0; height: 60px;
+}
+
+/* footBox */
+#footBox{
+  width: 100%; height: 400px;
+  background-color: #fef8dc;
+}
+
+.cj_icon{float: left;
+  width: 142px; height: 140px;
+  margin-top: 40px; margin-left: 114px;
+  background-image: url("../../img/cj_icon.png");
+  background-repeat: no-repeat;
+}
+.com_info{float: left;
+  width: 574px; height: 96px;
+  margin-top: 80px; margin-left: 20px;
+}
+
+.com_info address{
+  font-size: 20px;
+}
+
+.com_info_nav{float: left;
+  width: 186px; height: 100px;
+  margin-top: 80px; margin-left: 142px;
+}
+
+.com_info_nav a{
+  display: block;
+  width: 186px; height: 20px;
+  margin-bottom: 20px;  line-height: 10px;
+}
+
+.com_info_nav a:hover,
+.com_info_nav a:focus{
+  color: #D03432; border-bottom: 1px solid #231d1d;
+}
+
+.arrow_icon{  float: left;
+  width: 16PX; height: 20PX;
+  background-image: url("../../img/fott_arrow.png");
+  background-repeat: no-repeat;
+}
+
+.facebook_icon a{float: left;
+  width: 60px; height: 60px;
+  margin-top: 120px; margin-left: 82px;
+  background-image: url("../../img/face_book.png");
+  background-repeat: no-repeat;
+
+}
+.twitter_icon a{
+  float: left;
+  width: 60px; height: 60px;
+  margin-top: 120px; margin-left:20px;
+  background-image: url("../../img/twitter.png");
+  background-repeat: no-repeat;
+}
+.instargram_icon a{
+  float: left;
+  width: 60px; height: 60px;
+  margin-top: 120px; margin-left:20px;
+  background-image: url("../../img/instargram.png");
+  background-repeat: no-repeat;
+}
+.foot_character{
+  width: 552px; height: 187px;
+  margin-top: 20px; margin-left: 524px;
+  background-image: url("../../img/character.png");
+  background-repeat: no-repeat;
+}
