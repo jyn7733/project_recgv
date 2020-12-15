@@ -2,14 +2,14 @@
 /* cgv_main.css */
 
 #wrap{
-  width: 1600px; height: auto; 
+  width: 100%; height: auto; 
   margin: auto;
-  background-color: #ddd;
+  background-color: #fdfcf0;
 }
 
 #headBox{ position: relative;
-  padding-top: 20px; box-sizing: border-box;
-  width: 100%; height: auto; min-height: 1380px;
+  padding-top: 20px; box-sizing: border-box; margin: auto;
+  width: 1600px; height: auto; min-height: 1380px;
   background-color: #fdfcf0;
 }
 
@@ -90,19 +90,19 @@ h1{
 
 }
 .rank_01{
-  position: absolute; top:410px; left: 114px ;
+  position: absolute; top:430px; left: 114px ;
   width: 180px; height: 64px;
   background-image: url("../../img/rank_icon_01.png");
   background-repeat: no-repeat;
 }
 .rank_02{
-  position: absolute; top:410px; left:525px ;
+  position: absolute; top:430px; left:525px ;
   width: 180px; height: 64px; 
   background-image: url("../../img/rank_icon_02.png");
   background-repeat: no-repeat;
 }
 .rank_03{
-  position: absolute; top:410px; left:935px ;
+  position: absolute; top:430px; left:935px ;
   width: 180px; height: 64px;
   background-image: url("../../img/rank_icon_03.png");
   background-repeat: no-repeat;
