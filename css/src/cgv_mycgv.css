@@ -30,7 +30,6 @@
   color:#da281c;
 }
 
-
 #globalNav{
   width: 82px; height: 68px;
   margin-left: 114px;
@@ -48,14 +47,10 @@
 #globalNavBox{
   position: absolute; top: 70px;
   z-index: 500;
-  width: 82px; height: 68px; overflow: hidden;
+  width: 1290px; height: 150px; overflow: hidden;
   margin-left: 82px; color:#231d1d;
   opacity: 0.9;
   background-color: #f7f6ea;
-}
-#globalNavBox:hover,
-#globalNavBox:focus{
-  width: 1290px; height: 150px;
 }
 
 #globalNavBox a:hover,
@@ -114,7 +109,20 @@ h1{
   background-repeat: no-repeat;
 }
 
-
+.myinfo_text{
+  width: 100%; height: 30px; margin-top: 40px;
+}
+.myinfo_text span{
+  display: inline-block;
+  width: 140px; height: 100%;
+}
+.myinfo_text_02{
+  width: 100%; height: 30px; margin-top: 70px;
+}
+.myinfo_text_02 span{color:#D8d}
+.myinfo_text_03{
+  width: 100%; height: 30px; margin-top: 80px;
+}
 
 #theaterList{
   width: 100%; height: 100%;
@@ -133,7 +141,15 @@ h1{
 #theaterList li:nth-of-type( 2n ){
   margin-left: 0;
  }
-
+.point_cj{
+  width: 100%; height: 50%;
+}
+.point_cj h3{
+  margin-top: 20px;
+}
+.point_vip{
+  width: 100%; height: 50%;
+}
  /* mypackageBox */
  #mypackageBox{
    width: 100%; height: auto; min-height: 1000px;
@@ -187,8 +203,7 @@ h1{
  .my_ticketing li p{
   display: block; 
   width: 268px; height: 60px;
-  margin: auto;
-  background-color: #777;
+  margin: auto; text-align: center;
 }
 .my_ticketing li:nth-of-type(2n){ 
   margin-top: 0; height: 60px;
@@ -230,8 +245,7 @@ h1{
 .my_coupon li p{
   display: block; 
   width: 268px; height: 60px;
-  margin: auto;
-  background-color: #777;
+  margin: auto; text-align: center;
 }
 .my_coupon li:nth-of-type(2n){ 
   margin-top: 0; height: 60px;
@@ -267,8 +281,7 @@ h1{
 .my_purchase li p{
   display: block; 
   width: 268px; height: 60px;
-  margin: auto;
-  background-color: #777;
+  margin: auto; text-align: center;
 }
 .my_purchase li:nth-of-type(2n){ 
   margin-top: 0; height: 60px;

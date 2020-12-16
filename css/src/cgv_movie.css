@@ -51,14 +51,10 @@
 #globalNavBox{
   position: absolute; top: 70px;
   z-index: 500;
-  width: 82px; height: 68px; overflow: hidden;
+  width: 1290px; height: 150px; overflow: hidden;
   margin-left: 82px; color:#231d1d;
   opacity: 0.9;
   background-color: #f7f6ea;
-}
-#globalNavBox:hover,
-#globalNavBox:focus{
-  width: 1290px; height: 150px;
 }
 
 #globalNavBox a:hover,
